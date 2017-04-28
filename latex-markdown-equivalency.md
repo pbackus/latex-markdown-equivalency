@@ -18,8 +18,9 @@ LaTeX beginners to start.
 
 The examples below will follow more or less the same structure as John Gruber's
 original [Markdown Basics](https://daringfireball.net/projects/markdown/basics)
-tutorial. In addition, both the Markdown source for this article and a
-translation into LaTeX are available for download at
+tutorial, so if your Markdown is rusty, you may want to give yourself a
+refresher before proceeding. In addition, both the Markdown source for this
+article and a translation into LaTeX are available for download at
 <https://github.com/pbackus/latex-markdown-equivalency>.
 
 Basic LaTeX Syntax
@@ -51,10 +52,10 @@ document goes, including any formatting markup. As you may have surmised, the
 `%` character marks the start of a comment; any text between it and the end of
 the line will be ignored.
 
-You can use the example above as a starting point for your own documents, if
-you wish; however, some of LaTeX's default settings are a bit strange. I myself
-prefer the following minimal preamble, which I'll be using in this article's
-LaTeX translation:
+You can use the example above as a template for your own documents, if you
+wish, and all of the examples in this article will work with it. However, some
+of LaTeX's default settings are a bit strange. I myself like to use the
+following minimal preamble, which makes a few small tweaks:
 
     % Tell LaTeX to treat the file as UTF-8 instead of ASCII
     \usepackage[utf8]{inputenc}
