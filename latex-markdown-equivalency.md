@@ -18,8 +18,9 @@ LaTeX beginners to start.
 
 The examples below will follow more or less the same structure as John Gruber's
 original [Markdown Basics](https://daringfireball.net/projects/markdown/basics)
-tutorial. In addition, both the Markdown source for this article and its
-translation into LaTeX will be available for download. (TODO: add link.)
+tutorial. In addition, both the Markdown source for this article and a
+translation into LaTeX are available for download at
+<https://github.com/pbackus/latex-markdown-equivalency>.
 
 Basic LaTeX Syntax
 ------------------
