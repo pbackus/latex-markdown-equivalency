@@ -40,7 +40,7 @@ comments:
     % This part is the preamble.
 
     \begin{document}
-    %This part is the body.
+    % This part is the body.
     Hello, world!
     \end{document}
 
