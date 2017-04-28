@@ -365,20 +365,19 @@ In Markdown:
 
 In LaTeX:
 
-% We have to cheat a little bit here and use a fake \end{verbatim} macro,
-% because the verbatim environment doesn't nest.
-\begin{quote}
+% The verbatim environment doesn't nest, so we have to cheat a little bit here
+% and add the "\end{verbatim}" to the example using a separate \verb macro.
 \begin{verbatim}
-Here we see the classic C "hello world":
-
-\begin{verbatim}
-#include <stdio.h>
-
-int main(void) {
-    printf("Hello, world!");
-}\end{verbatim}
-\verb`\end{verbatim}`
-\end{quote}
+    Here we see the classic C "hello world":
+    
+    \begin{verbatim}
+    #include <stdio.h>
+    
+    int main(void) {
+        printf("Hello, world!");
+    }
+\end{verbatim}
+\verb`    \end{verbatim}` % Four spaces to match indentation
 
 Inline code is a little bit tricker. It's created using the \verb`\verb` macro,
 which has a unique way of handling its argument: the character immediately
