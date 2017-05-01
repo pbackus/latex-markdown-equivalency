@@ -367,18 +367,18 @@ In Markdown:
 
 In LaTeX:
 
-% The verbatim environment doesn't nest, so we have to cheat a little bit here
-% and add the "\end{verbatim}" to the example using a separate \verb macro.
-\begin{verbatim}
-    Here we see the classic C "hello world":
-    
-    \begin{verbatim}
-    #include <stdio.h>
-    
-    int main(void) {
-        printf("Hello, world!");
-    }
-\end{verbatim}
+% The verbatim environment doesn't nest, which means it's impossible to include
+% the text "\end{verbatim}" in a verbatim block without *actually* ending the
+% block. To "fake" it, we instead use the inline \verb macro in combination
+% with manual line breaks.
+\verb`    Here we see the classic C "hello world":` \\
+\\
+\verb`    \begin{verbatim}` \\
+\verb`    #include <stdio.h>` \\
+\\
+\verb`    int main(void) {` \\
+\verb`        printf("Hello, world!");` \\
+\verb`    }` \\
 \verb`    \end{verbatim}` % Four spaces to match indentation
 
 Inline code is a little bit tricker. It's created using the \verb`\verb` macro,
