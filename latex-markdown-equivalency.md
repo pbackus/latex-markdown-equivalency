@@ -19,8 +19,8 @@ LaTeX beginners to start.
 The examples below will follow more or less the same structure as John Gruber's
 original [Markdown Basics](https://daringfireball.net/projects/markdown/basics)
 tutorial, so if your Markdown is rusty, you may want to give yourself a
-refresher before proceeding. In addition, both the Markdown source for this
-article and a translation into LaTeX are available for download at
+refresher before proceeding. In addition, the source for this article is
+available in both Markdown and LaTeX at
 <https://github.com/pbackus/latex-markdown-equivalency>.
 
 Basic LaTeX Syntax
