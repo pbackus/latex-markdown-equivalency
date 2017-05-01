@@ -7,7 +7,7 @@ Introduction
 [LaTeX][1] is an extremely powerful and flexible markup language that many
 people find difficult to learn. [Markdown][2], in contrast, is an extremely
 rudimentary markup language that most people find very easy to learn. This
-article aims to bridge the gap between the two by showing how a subset of
+tutorial aims to bridge the gap between the two by showing how a subset of
 LaTeX's features can be used to emulate Markdown. Since the simple formatting
 constructs Markdown provides are sufficient (or nearly so) for a large class of
 non-technical documents, learning their LaTeX equivalents is a good place for
@@ -16,13 +16,14 @@ LaTeX beginners to start.
 [1]: https://www.latex-project.org/
 [2]: https://daringfireball.net/projects/markdown/
 
-The examples below will follow more or less the same structure as John Gruber's
-original [Markdown Basics](https://daringfireball.net/projects/markdown/basics)
-tutorial, so if your Markdown is rusty, you may want to give yourself a
-refresher before proceeding. In addition, the source for this article is
-available in both Markdown and LaTeX at
-<https://github.com/pbackus/latex-markdown-equivalency>. It is intended to
-serve as a more complete example than the short snippets below.
+I'll be using more or less the same examples as John Gruber's original
+[Markdown Basics](https://daringfireball.net/projects/markdown/basics)
+tutorial, with a couple of additions for the sake of completeness. (If your
+Markdown is rusty, you may want to give yourself a refresher before
+proceeding.) In addition, the source for this tutorial is available in both
+Markdown and LaTeX at <https://github.com/pbackus/latex-markdown-equivalency>.
+It is intended to serve as a more complete example than the short snippets
+below.
 
 Basic LaTeX Syntax
 ------------------
@@ -54,7 +55,7 @@ document goes, including any formatting markup. As you may have surmised, the
 the line will be ignored.
 
 You can use the example above as a template for your own documents, if you
-wish, and all of the examples in this article will work with it. However, some
+wish, and all of the examples in this tutorial will work with it. However, some
 of LaTeX's default settings are a bit strange. I myself like to use the
 following minimal preamble, which makes a few small tweaks:
 
