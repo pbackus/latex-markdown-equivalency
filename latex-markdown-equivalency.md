@@ -21,7 +21,8 @@ original [Markdown Basics](https://daringfireball.net/projects/markdown/basics)
 tutorial, so if your Markdown is rusty, you may want to give yourself a
 refresher before proceeding. In addition, the source for this article is
 available in both Markdown and LaTeX at
-<https://github.com/pbackus/latex-markdown-equivalency>.
+<https://github.com/pbackus/latex-markdown-equivalency>. It is intended to
+serve as a more complete example than the short snippets below.
 
 Basic LaTeX Syntax
 ------------------
